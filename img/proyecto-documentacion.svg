@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de proyecto de documentación</title>
+  <desc id="desc">Ilustración placeholder para un proyecto de documentación técnica</desc>
+  <rect width="1200" height="760" fill="#111111"/>
+  <rect x="250" y="90" width="700" height="580" rx="34" fill="#ffffff"/>
+  <rect x="328" y="168" width="280" height="34" rx="12" fill="#6d28d9"/>
+  <rect x="328" y="258" width="544" height="20" rx="10" fill="#111111" opacity=".22"/>
+  <rect x="328" y="310" width="466" height="20" rx="10" fill="#111111" opacity=".15"/>
+  <rect x="328" y="362" width="520" height="20" rx="10" fill="#111111" opacity=".15"/>
+  <rect x="328" y="438" width="180" height="112" rx="18" fill="#ede9fe"/>
+  <rect x="548" y="438" width="324" height="112" rx="18" fill="#6d28d9"/>
+  <text x="318" y="620" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#111111">Placeholder Docs</text>
+</svg>

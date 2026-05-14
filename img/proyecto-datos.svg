@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de proyecto de datos</title>
+  <desc id="desc">Ilustración placeholder para un proyecto de base de datos</desc>
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <rect x="96" y="96" width="1008" height="568" rx="34" fill="#111111"/>
+  <ellipse cx="600" cy="250" rx="240" ry="74" fill="#8b5cf6"/>
+  <path d="M360 250v196c0 41 107 74 240 74s240-33 240-74V250" fill="#6d28d9"/>
+  <ellipse cx="600" cy="446" rx="240" ry="74" fill="#a78bfa"/>
+  <path d="M360 340c0 41 107 74 240 74s240-33 240-74" fill="none" stroke="#ffffff" stroke-width="18" opacity=".6"/>
+  <rect x="166" y="150" width="180" height="18" rx="9" fill="#ffffff" opacity=".4"/>
+  <rect x="854" y="584" width="180" height="18" rx="9" fill="#ffffff" opacity=".4"/>
+  <text x="420" y="626" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Placeholder Datos</text>
+</svg>

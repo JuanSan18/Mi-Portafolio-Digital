@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de proyecto de sistemas</title>
+  <desc id="desc">Ilustración placeholder para un proyecto de sistemas</desc>
+  <rect width="1200" height="760" fill="#111111"/>
+  <rect x="128" y="118" width="944" height="524" rx="32" fill="#ffffff"/>
+  <rect x="230" y="220" width="260" height="320" rx="26" fill="#6d28d9"/>
+  <rect x="548" y="220" width="260" height="320" rx="26" fill="#ede9fe"/>
+  <rect x="866" y="220" width="92" height="320" rx="26" fill="#111111"/>
+  <circle cx="360" cy="308" r="34" fill="#ffffff"/>
+  <rect x="288" y="390" width="144" height="18" rx="9" fill="#ffffff" opacity=".8"/>
+  <rect x="288" y="438" width="144" height="18" rx="9" fill="#ffffff" opacity=".55"/>
+  <circle cx="678" cy="308" r="34" fill="#6d28d9"/>
+  <rect x="606" y="390" width="144" height="18" rx="9" fill="#111111" opacity=".3"/>
+  <rect x="606" y="438" width="144" height="18" rx="9" fill="#111111" opacity=".18"/>
+  <text x="232" y="610" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#111111">Placeholder Sistemas</text>
+</svg>

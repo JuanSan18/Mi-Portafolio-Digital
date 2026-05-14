@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de video</title>
+  <desc id="desc">Imagen de reserva para la sección de video del portafolio</desc>
+  <rect width="1280" height="720" fill="#111111"/>
+  <rect x="96" y="76" width="1088" height="568" rx="36" fill="#ffffff"/>
+  <circle cx="640" cy="360" r="112" fill="#6d28d9"/>
+  <path d="M610 296l96 64-96 64z" fill="#ffffff"/>
+  <rect x="168" y="554" width="500" height="20" rx="10" fill="#111111" opacity=".18"/>
+  <rect x="168" y="594" width="330" height="20" rx="10" fill="#111111" opacity=".12"/>
+  <text x="168" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#111111">Video del Portal</text>
+</svg>

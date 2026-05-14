@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contacto profesional de Juan Esteban Sánchez con correo, teléfono, LinkedIn, GitHub e Instagram.">
+    <title>Contacto | Juan Esteban Sánchez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a class="brand" href="index.html" aria-label="Inicio del portafolio">
+                <span class="brand-mark">JS</span>
+                <span class="brand-text">Juan Esteban Sánchez</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Mí</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="portfolio.html">Portafolio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+                <li><a href="otros.html">Otros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div>
+                <p class="eyebrow">Contacto</p>
+                <h1>Canales profesionales para conectar y colaborar.</h1>
+                <p>Estoy abierto a oportunidades de aprendizaje, prácticas, proyectos junior y colaboración en entornos tecnológicos.</p>
+            </div>
+            <aside class="contact-card" aria-label="Contacto directo">
+                <i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i>
+                <h2>Contacto directo</h2>
+                <div class="contact-direct-list">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=juanestebansanchez1801@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <span class="contact-direct-label">Correo profesional</span>
+                        <strong>juanestebansanchez1801@gmail.com</strong>
+                    </a>
+                    <a href="tel:+34647332237">
+                        <span class="contact-direct-label">Teléfono</span>
+                        <strong>+34 647 33 22 37</strong>
+                    </a>
+                </div>
+            </aside>
+        </section>
+
+        <section class="contact-layout">
+            <article class="contact-panel">
+                <h2>Redes profesionales</h2>
+                <div class="social-grid">
+                    <a href="https://www.linkedin.com/in/juan-esteban-s%C3%A1nchez" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/JuanSan18" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.instagram.com/j.u.a.r.e/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </article>
+
+            <aside class="contact-panel" aria-label="Formulario de contacto">
+                <h2>Mensaje rápido</h2>
+                <form class="contact-form" action="mailto:juanestebansanchez1801@gmail.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+                    <label for="email">Correo</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+                    <button class="btn btn-primary" type="submit">
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                        Enviar mensaje
+                    </button>
+                </form>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <h2>Juan Esteban Sánchez</h2>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/juan-esteban-s%C3%A1nchez" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/JuanSan18" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    GitHub
+                </a>
+                <a href="https://www.instagram.com/j.u.a.r.e/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    Instagram
+                </a>
+            </div>
+        </div>
+        <nav aria-label="Enlaces secundarios">
+            <a href="index.html">Inicio</a>
+            <a href="cv.html">CV</a>
+            <a href="portfolio.html">Proyectos</a>
+        </nav>
+    </footer>
+</body>
+</html>

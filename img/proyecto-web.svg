@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de proyecto web</title>
+  <desc id="desc">Ilustración placeholder para un proyecto de desarrollo web</desc>
+  <rect width="1200" height="760" fill="#111111"/>
+  <rect x="72" y="84" width="1056" height="592" rx="28" fill="#ffffff"/>
+  <rect x="72" y="84" width="1056" height="92" rx="28" fill="#6d28d9"/>
+  <circle cx="126" cy="130" r="14" fill="#ffffff" opacity=".9"/>
+  <circle cx="174" cy="130" r="14" fill="#ffffff" opacity=".68"/>
+  <circle cx="222" cy="130" r="14" fill="#ffffff" opacity=".45"/>
+  <rect x="140" y="244" width="360" height="46" rx="12" fill="#6d28d9"/>
+  <rect x="140" y="322" width="620" height="22" rx="11" fill="#111111" opacity=".18"/>
+  <rect x="140" y="368" width="520" height="22" rx="11" fill="#111111" opacity=".12"/>
+  <rect x="140" y="450" width="210" height="64" rx="16" fill="#111111"/>
+  <rect x="785" y="250" width="235" height="235" rx="28" fill="#ede9fe"/>
+  <path d="M850 386l48-92h74l-66 122h-76z" fill="#6d28d9"/>
+  <text x="140" y="604" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#111111">Placeholder Web</text>
+</svg>
