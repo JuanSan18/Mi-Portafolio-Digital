@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de contacto profesional de Juan Esteban Sánchez con correo, teléfono, LinkedIn, GitHub e Instagram.">
+    <meta name="description" content="Contacto profesional de Juan Esteban Sánchez para prácticas, soporte técnico junior, proyectos formativos y colaboración en entornos tecnológicos.">
     <title>Contacto | Juan Esteban Sánchez</title>
+    <meta property="og:title" content="Contacto | Juan Esteban Sánchez">
+    <meta property="og:description" content="Canales de contacto profesional, redes y formulario de Juan Esteban Sánchez.">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
@@ -35,7 +38,7 @@
             <div>
                 <p class="eyebrow">Contacto</p>
                 <h1>Canales profesionales para conectar y colaborar.</h1>
-                <p>Estoy abierto a oportunidades de aprendizaje, prácticas, proyectos junior y colaboración en entornos tecnológicos.</p>
+                <p>Estoy abierto a oportunidades de aprendizaje, prácticas formativas, proyectos junior y colaboración en entornos tecnológicos.</p>
             </div>
             <aside class="contact-card" aria-label="Contacto directo">
                 <i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i>
@@ -74,15 +77,17 @@
 
             <aside class="contact-panel" aria-label="Formulario de contacto">
                 <h2>Mensaje rápido</h2>
-                <form class="contact-form" action="mailto:juanestebansanchez1801@gmail.com" method="post" enctype="text/plain">
+                <form class="contact-form" action="https://formsubmit.co/juanestebansanchez1801@gmail.com" method="post">
+                    <input type="hidden" name="_subject" value="Nuevo mensaje desde el portafolio">
+                    <input type="hidden" name="_captcha" value="false">
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
                     <label for="email">Correo</label>
-                    <input type="email" id="email" name="email" placeholder="tu@email.com">
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
 
                     <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
 
                     <button class="btn btn-primary" type="submit">
                         <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
