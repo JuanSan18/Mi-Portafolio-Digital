@@ -53,6 +53,15 @@ a {
     text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+video:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 4px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -850,6 +859,12 @@ espaciado constante y una adaptación natural cuando cambia el ancho. */
     box-shadow: 0 0 0 4px rgba(109, 40, 217, 0.12);
 }
 
+.contact-form input:focus-visible,
+.contact-form textarea:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 4px;
+}
+
 .contact-form button {
     margin-top: 8px;
     border: 0;
@@ -920,6 +935,17 @@ espaciado constante y una adaptación natural cuando cambia el ancho. */
 
 .site-footer a:hover {
     color: var(--color-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }
 
 /* En responsive mantengo la jerarquía visual, pero reduzco columnas y
